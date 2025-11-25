@@ -1,0 +1,1 @@
+command - set HOST=localhost&& set PORT=1234&& npx @y/websocket-server

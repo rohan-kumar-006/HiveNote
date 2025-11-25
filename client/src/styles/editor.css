@@ -1,0 +1,266 @@
+/* Editor Styles */
+.ProseMirror {
+  outline: none;
+}
+
+/* Headings */
+.ProseMirror h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.ProseMirror h2 {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+}
+
+.ProseMirror h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+}
+
+/* Lists - FIXED */
+.ProseMirror ul,
+.ProseMirror ol {
+  padding-left: 2em;
+  margin: 1em 0;
+  list-style-position: outside;
+}
+
+.ProseMirror ul {
+  list-style-type: disc;
+}
+
+.ProseMirror ol {
+  list-style-type: decimal;
+}
+
+.ProseMirror ul li,
+.ProseMirror ol li {
+  margin: 0.25em 0;
+  display: list-item;
+}
+
+/* Nested lists */
+.ProseMirror ul ul {
+  list-style-type: circle;
+}
+
+.ProseMirror ul ul ul {
+  list-style-type: square;
+}
+
+/* Blockquote */
+.ProseMirror blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1em;
+  color: #6b7280;
+  font-style: italic;
+  margin: 1em 0;
+}
+
+/* Code Block */
+.ProseMirror pre {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Inline Code */
+.ProseMirror code {
+  background: #f3f4f6;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ProseMirror pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Paragraphs */
+.ProseMirror p {
+  margin: 0.5em 0;
+}
+/* Editor Styles */
+.ProseMirror {
+  outline: none;
+}
+
+/* Headings */
+.ProseMirror h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.ProseMirror h2 {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+}
+
+.ProseMirror h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+}
+
+/* Lists - FIXED */
+.ProseMirror ul,
+.ProseMirror ol {
+  padding-left: 2em;
+  margin: 1em 0;
+  list-style-position: outside;
+}
+
+.ProseMirror ul {
+  list-style-type: disc;
+}
+
+.ProseMirror ol {
+  list-style-type: decimal;
+}
+
+.ProseMirror ul li,
+.ProseMirror ol li {
+  margin: 0.25em 0;
+  display: list-item;
+}
+
+/* Nested lists */
+.ProseMirror ul ul {
+  list-style-type: circle;
+}
+
+.ProseMirror ul ul ul {
+  list-style-type: square;
+}
+
+/* Blockquote */
+.ProseMirror blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1em;
+  color: #6b7280;
+  font-style: italic;
+  margin: 1em 0;
+}
+
+/* Code Block */
+.ProseMirror pre {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Inline Code */
+.ProseMirror code {
+  background: #f3f4f6;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ProseMirror pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Paragraphs */
+.ProseMirror p {
+  margin: 0.5em 0;
+}
+
+/* ===== NEW STYLES FOR ADDED FEATURES ===== */
+
+/* Underline */
+.ProseMirror u {
+  text-decoration: underline;
+}
+
+/* Text Alignment */
+.ProseMirror p.has-text-align-left,
+.ProseMirror h1.has-text-align-left,
+.ProseMirror h2.has-text-align-left,
+.ProseMirror h3.has-text-align-left {
+  text-align: left;
+}
+
+.ProseMirror p.has-text-align-center,
+.ProseMirror h1.has-text-align-center,
+.ProseMirror h2.has-text-align-center,
+.ProseMirror h3.has-text-align-center {
+  text-align: center;
+}
+
+.ProseMirror p.has-text-align-right,
+.ProseMirror h1.has-text-align-right,
+.ProseMirror h2.has-text-align-right,
+.ProseMirror h3.has-text-align-right {
+  text-align: right;
+}
+
+/* Highlight */
+.ProseMirror mark {
+  border-radius: 0.25em;
+  padding: 0.1em 0.2em;
+  box-decoration-break: clone;
+}
+
+/* Horizontal Rule */
+.ProseMirror hr {
+  border: none;
+  border-top: 2px solid #e5e7eb;
+  margin: 1.5em 0;
+}
+
+.ProseMirror hr.ProseMirror-selectednode {
+  border-top-color: #6366f1;
+}
+
+/* Subscript and Superscript */
+.ProseMirror sub {
+  font-size: 0.75em;
+  vertical-align: sub;
+}
+
+.ProseMirror sup {
+  font-size: 0.75em;
+  vertical-align: super;
+}
+
+/* Color picker dropdown animation */
+.color-picker-enter {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.color-picker-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 150ms, transform 150ms;
+}
