@@ -26,10 +26,6 @@ Built with **Socket.IO** and **Yjs** for seamless real-time synchronization and 
 - Summarize notes using an AI Summary API
 - Summarize selected text or entire document
 
-### Snapshots & Persistence
-- Yjs document snapshots
-- Database compaction for optimized storage
-
 ## Tech Stack
 
 ### Frontend
@@ -47,3 +43,4 @@ Built with **Socket.IO** and **Yjs** for seamless real-time synchronization and 
 
 ### Deployment
 - Render
+
