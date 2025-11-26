@@ -28,7 +28,7 @@ const activeDocuments = new Set()
 
 //middleware yha hai
 app.use(cors({
-    origin: process.env.ORIGIN_URL || 'http://localhost:5173',
+    origin: process.env.CLIENT_URL || 'http://localhost:5173',
     credentials: true
 }))
 

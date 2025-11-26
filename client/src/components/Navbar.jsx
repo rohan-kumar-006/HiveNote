@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <nav className="bg-white shadow flex flex-cols justify-between px-20 py-2">
             <div className="flex items-center">
-                <h1 className="text-xl font-bold">CollabNotes</h1>
+                <h1 className="text-xl font-bold">HiveNote</h1>
             </div>
             <div className="flex items-center space-x-4">
                 <span className="text-gray-700">Hello, 
