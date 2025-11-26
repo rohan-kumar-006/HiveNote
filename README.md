@@ -1,46 +1,49 @@
-**🐝 HiveNote – Real-Time Collaborative Notes App**
+# HiveNote – Real-Time Collaborative Notes App
 
-HiveNote is a MERN-based real-time collaborative note-taking app where multiple users can create, edit, share, and collaborate on notes instantly.
-Powered by Socket.IO + Yjs, it delivers seamless live editing and rich text features.
+HiveNote is a **MERN-based real-time collaborative note-taking application** where multiple users can create, edit, share, and collaborate on notes instantly.
+Built with **Socket.IO** and **Yjs** for seamless real-time synchronization and collaborative editing.
 
-🚀** Features**
-**🔐 Authentication**
-  Login / Signup with JWT
-  Secure session handling
+## Features
 
-**📝 Notes**
-  Create, edit, delete notes
-  TipTap rich-text editor
-  Auto-save functionality
+### Authentication
+- Login / Signup with JWT
+- Secure session handling
 
-**⚡ Real-Time Collaboration**
-  Multi-user collaborative editing
-  Instant syncing using Socket.IO + Yjs
+### Notes
+- Create, edit, delete notes
+- Rich-text editor using TipTap
+- Auto-save functionality
 
-**🔗 Sharing**
-  Sharable collaboration links
-  Others can join and edit in real-time
+### Real-Time Collaboration
+- Multi-user collaborative editing
+- Instant syncing using Socket.IO + Yjs
 
-**🤖 AI Summarizer**
-  Uses an AI Summary API to summarize your notes
-  Summarize selected text or entire note
+### Sharing
+- Sharable collaboration links
+- Others can join and edit in real time
 
-**💾 Snapshots & Persistence**
-  Yjs document snapshots
-  Database compaction for optimized storage
+### AI Summarizer
+- Summarize notes using an AI Summary API
+- Summarize selected text or entire document
 
+### Snapshots & Persistence
+- Yjs document snapshots
+- Database compaction for optimized storage
 
-**🛠 Tech Stack**
-  Frontend
-    -React
-    -TipTap
-    -Socket.IO Client
-  Backend
-    -Node.js
-    -Express
-    -MongoDB (Mongoose)
-    -JWT Auth
-    -Socket.IO
-    -Yjs
-  Deployment
-  -Render
+## Tech Stack
+
+### Frontend
+- React
+- TipTap
+- Socket.IO Client
+
+### Backend
+- Node.js
+- Express
+- MongoDB (Mongoose)
+- JWT Authentication
+- Socket.IO
+- Yjs
+
+### Deployment
+- Render
