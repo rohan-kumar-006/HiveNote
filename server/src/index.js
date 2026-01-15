@@ -13,6 +13,7 @@ import authRoutes from "../routes/auth.routes.js"
 import noteRoutes from "../routes/note.routes.js"
 import summaryRoutes from "../routes/summary.routes.js"
 import { createSnapshotAndCompaction } from '../services/yjsPersistance.js'
+import path from "path"
 
 const app = express()
 const PORT = 5000
@@ -38,6 +39,15 @@ app.use(express.urlencoded({ extended: true }))
 app.use("/api/auth", authRoutes)
 app.use("/api", noteRoutes)
 app.use("/api/notes",summaryRoutes)
+
+
+const __dirname = path.resolve()
+
+app.use(express.static(path.join(__dirname, "client/dist"))) 
+
+app.use((req, res) => {
+  res.sendFile(path.join(__dirname, "client/dist", "index.html"))
+})
 
 //Socket IO ka Authentication
 io.use(async (socket, next) => {
