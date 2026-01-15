@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Login from "../src/pages/Login.jsx"
 import './App.css'
 import Register from './pages/Register.jsx'
